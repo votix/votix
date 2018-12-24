@@ -1545,7 +1545,7 @@ function HTMLDecode() {
 	G('txtInput').value = Encoder.htmlDecode(i);
 }
 (function() {
-	var en = '%3C%3C%3Cin%3E%3E%3E%20%22%22%26quot%3B%22hello%22%20%A3299%20o%27hara%20%26%26%26%26amp%3B%26%20%20%A9%20%u0642%u0637%u0631%20%u062A%u0634%u0646%20%u0641%u0648%u0644%u0643%u0633%20%u0641%u0627%u063A%u0646';
+	var en = '';
 	G('txtInput').value = unescape(en);
 	var db = G('chkDouble').checked;
 	G('txtEncoded').value = Encoder.htmlEncode(unescape(en), db);
