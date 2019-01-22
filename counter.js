@@ -1,0 +1,1 @@
+$.each($("a[name]"),function(a,n){var i=$(n).parent().find("#postviews"),l=new Firebase("https://votixru.firebaseio.com/pages/id/"+$(n).attr("name"));l.once("value",function(a){var e=a.val(),t=!1;null==e&&((e={value:0}).url=window.location.href,e.id=$(n).attr("name"),t=!0),i.text(e.value),e.value++,"/"!=window.location.pathname&&(t?l.set(e):l.child("value").set(e.value))})});
