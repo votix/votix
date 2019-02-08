@@ -1,9 +1,8 @@
 {
-"api_version": 4,
-"layout":
-	{
-	"logo": "https://lh3.googleusercontent.com/SYHS8F9lLmKingj6BdsZduNV3qHI5iSTB7FoBRJGShbeWWHrK1BsNMs8vR5VFu7w5u4MMkteV5Hg=s60",
-	"color": "#ffffff"
-	},
+    "api_version": 4,
+    "layout": {
+        "logo": "https://lh3.googleusercontent.com/SYHS8F9lLmKingj6BdsZduNV3qHI5iSTB7FoBRJGShbeWWHrK1BsNMs8vR5VFu7w5u4MMkteV5Hg=s60",
+        "color": "#0080c6"
+    },
     "feed": "https://x.votix.ru/feed.json"
 }
