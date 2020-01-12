@@ -1,8 +1,10 @@
-{
-    "api_version": 4,
-    "layout": {
-        "logo": "https://x.votix.ru/logotype.png",
-        "color": "#0296a9"
-    },
-    "feed": "https://x.votix.ru/feed.json"
+{ 
+  "version": "1", 
+  "api_version": 1, 
+  "layout": 
+{ 
+  "logo": "https://x.votix.ru/logotype.png", 
+  "color": "#0296a9",
+  "show_title": false 
+}
 }
