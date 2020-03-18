@@ -1,3 +1,11 @@
+/* 	Related Posts Widget for Google Blogger v2.0
+	Blog : http://www.moretechtips.net
+	Project: http://code.google.com/p/blogger-related-posts
+	Copyright 2009 [Mike@moretechtips.net] 
+	Licensed under the Apache License, Version 2.0 
+	(the "License"); you may not use this file except in compliance with the License. 
+	You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+*/
 (function(c){c.fn.relatedPostsWidget=function(s){if(!this.size())return this;s=c.extend({},c.fn.relatedPostsWidget.defaults,s);return this.each(function(){var k=c(this),z=0,g=null,p=null,t=0,q=0,l=-1,n=-1,u=-1,r=null,v=0,w=null,A="",b=s,F=function(){if(!((l+1)*b.show_n>=q&&!b.animate_loop))if(!v){c("li",g).eq(n).fadeOut(b.exit_time,B);b.show_n>1&&c("li",g).slice(n+1,u).fadeOut(b.exit_time)}},B=function(){if(g.parent().size()){l++;if(l*b.show_n>=q)l=0;n=l*b.show_n;u=(l+1)*b.show_n;c("li",g).eq(n).animate(r,
 b.enter_time,"linear",C);b.show_n>1&&c("li",g).slice(n+1,u).animate(r,b.enter_time)}},C=function(){w&&clearTimeout(w);w=setTimeout(F,b.stay_time)},G=function(){r={};r[b.animate]="show";g.bind("mouseenter",function(){v=1}).bind("mouseleave",function(){v=0;C()});B()},x=function(){if(!(t||!g)){b.loading_class&&g.removeClass(b.loading_class);b.max_posts&&b.tags.length&&c("li:gt("+(b.max_posts-1)+")",g).remove();q=c("li",g).size();b.tags.length&&b.timeout&&b.max_posts&&c("img",g).each(function(){var d=
 c(this);d.attr("rel")&&d.attr("src",d.attr("rel"))});if(b.show_n==0)c("li",g).show();else q&&G();t=1}},E=function(d){if(!t){z++;if(d.feed.entry){if(!g){k.html("");if(b.tags.length==0)b.recent_title&&c("<h2>"+b.recent_title+"</h2>").appendTo(k);else b.related_title&&c("<h2>"+b.related_title+"</h2>").appendTo(k);g=c('<ul class="rpw '+b.loading_class+'"></ul>').appendTo(k)}for(var i=0,o=d.feed.entry.length;i<o;i++){var e=d.feed.entry[i],h;a:{var f=0;for(h=e.link.length;f<h;f++)if(e.link[f].rel=="alternate"){h=
