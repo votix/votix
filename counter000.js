@@ -137,7 +137,7 @@ window.iQuery && window.Rise && (function (jQuery, Rise) {
 		gtag('config', 'UA-130677506-1');
 		setTimeout(function () {
 			gtag('event', '15sec', {
-				'event_category': 'неОтказ'
+				'event_category': 'Визит без отказа'
 			});
 		}, 15000);
 		new Image().src = "https://counter.yadro.ru/hit?t45.4;r" + escape(document.referrer) + ((typeof (screen) == "undefined") ? "" : ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ? screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) + ";h" + escape(document.title.substring(0, 80)) + ";" + Math.random();
