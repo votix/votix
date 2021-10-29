@@ -5,6 +5,6 @@
 	"layout": {
 		"logo": "https://cdn.votix.ru/tableau.png",
 		"color": "#fff",
-		"show_title": true
+		"show_title": false
 	}
 }
