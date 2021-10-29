@@ -1,10 +1,10 @@
-{ 
-  "version": "1", 
-  "api_version": 1, 
-  "layout": 
-{ 
-  "logo": "https://1.bp.blogspot.com/-L5R4_zw101s/X6d0O43g_9I/AAAAAAAABI4/jRSxZBwgytYDxAU5ololxiToVAaylnaJwCK4BGAYYCw/s235/logofooter.png", 
-  "color": "#000000",
-  "show_title": false 
-}
+{
+	"version": "1.1",
+	"api_version": 1,
+
+	"layout": {
+		"logo": "https://cdn.votix.ru/tableau.png",
+		"color": "#fff",
+		"show_title": true
+	}
 }
