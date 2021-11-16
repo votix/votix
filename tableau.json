@@ -1,8 +1,9 @@
 {
-	"api_version": 4,
-
-	"layout": {
-		"logo": "https://cdn.votix.ru/tableau.png",
-		"color": "#f2f3f4"
-	}
+    "version": "1",
+    "api_version": 1,
+    "layout": {
+        "logo": "https://blogger.googleusercontent.com/img/a/AVvXsEhjSBdAo4xJFyYhx-TcDoEqYt3mxuH1ykA6AxFof1h7UnQ4UwuB5VyaUvF_l1p6XSOHH70V-qLdJwyX963OVOiK1u9c7hu_tIvrPsdvzCYZfc9jHW0Fh8kXRfzooigCksELGQD_3IcQuC0RzzfaiC8PAYjxwQqnJrpqAvhnozNTnaNyURFQm3tdwsB4=s150",
+        "color": "#0296a9",
+        "show_title": false
+    }
 }
