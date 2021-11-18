@@ -1,7 +1,6 @@
 {
   "name": "Votix.ru",
   "short_name": "Votix",
-  "scope":"/",
   "start_url": "https://www.votix.ru/",
   "description": "Блог Кирилла Герусова о фрилансе, заработке в интернете и финансах",
   "lang": "ru",
