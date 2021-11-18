@@ -3,7 +3,7 @@
   "short_name": "Votix",
   "description": "Блог Кирилла Герусова о фрилансе, заработке в интернете и финансах",
   "lang": "ru-RU",
-  "start_url": "https://www.votix.ru/",
+  "start_url": "/",
   "display": "standalone",
   "prefer_related_applications": false,
   "theme_color": "#0296A9",
