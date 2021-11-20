@@ -2,7 +2,7 @@
     "version": "1",
     "api_version": 1,
     "layout": {
-        "logo": "https://cdn.votix.ru/tableau.png",
+        "logo": "https://cdn.jsdelivr.net/gh/votix/votix/tableau.png",
         "color": "#0296a9",
         "show_title": false
     }
