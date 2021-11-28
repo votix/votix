@@ -1,7 +1,7 @@
 (function($) {
     $.fn.AddXbutton = function(options) {
         var defaults = {
-            img: 'http://vremenno.net/examples/x-button-on-text-input/images/x.gif'//расположение картинки крестика по-умолчанию (относительно страницы, на которой находится инпут)
+            img: 'https://cdn.jsdelivr.net/gh/votix/votix/x.gif'//расположение картинки крестика по-умолчанию (относительно страницы, на которой находится инпут)
         };
         var opts = $.extend(defaults, options);
         $(this)
