@@ -1,9 +1,8 @@
 {
-    "version": "1.1",
+    "version": "1.0",
     "api_version": 1,
     "layout": {
-        "logo": "https://cdn.votix.ru/tableau.png",
-        "color": "#0296a9",
-        "show_title": false
+        "logo": "https://cdn.jsdelivr.net/gh/votix/votix/tableau.png",
+        "color": "#e6e6e6"
     }
 }
