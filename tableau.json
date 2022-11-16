@@ -3,6 +3,6 @@
     "api_version": 1,
     "layout": {
         "logo": "https://cdn.jsdelivr.net/gh/votix/votix/images/tableau.png",
-        "color": "#e6e6e6"
+        "color": "#ffffff"
     }
 }
