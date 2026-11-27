@@ -1,8 +1,8 @@
 {
-  "name": "Votix.ru Кирилл Герусов",
-  "short_name": "Votix.ru Кирилл Герусов",
+  "name": "Votix.ru",
+  "short_name": "Votix.ru",
   "start_url": "https://www.votix.ru/",
-  "description": "Блог Кирилла Герусова о фрилансе, заработке в интернете и финансах",
+  "description": "Блог о фрилансе, заработке в интернете и финансах",
   "lang": "ru",
   "display": "standalone",
   "orientation": "any",
